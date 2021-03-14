@@ -1,0 +1,55 @@
+const FOOD_DATA = [
+  {
+    "name":"Burger",
+    "brand":"Noname",
+    "price":2.99,
+    "image":"burger.png"
+  },{
+    "name":"Cheese Dip",
+    "brand":"Noname",
+    "price":4.99,
+    "image":"cheese_dip.png"
+  },
+  {
+    "name":"Cola",
+    "brand":"Noname",
+    "price":1.49,
+    "image":"cola.png"
+  },
+  {
+    "name":"Fries",
+    "brand":"Noname",
+    "price":2.99,
+    "image":"fries.png"
+  },
+  {
+    "name":"Ice Cream",
+    "brand":"Noname",
+    "price":9.49,
+    "image":"ice_cream.png"
+  },
+  {
+    "name":"Noodles",
+    "brand":"Noname",
+    "price":4.49,
+    "image":"noodles.png"
+  },
+  {
+    "name":"Pizza",
+    "brand":"Noname",
+    "price":17.99,
+    "image":"pizza.png"
+  },
+  {
+    "name":"Sandwich",
+    "brand":"Noname",
+    "price":2.99,
+    "image":"sandwich.png"
+  },
+  {
+    "name":"Wrap",
+    "brand":"Noname",
+    "price":6.99,
+    "image":"wrap.png"
+  }
+];
