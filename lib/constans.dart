@@ -1,55 +1,43 @@
 const FOOD_DATA = [
   {
     "name":"Burger",
-    "brand":"Noname",
-    "price":2.99,
+    "brand":"Homemade",
     "image":"burger.png"
-  },{
-    "name":"Cheese Dip",
-    "brand":"Noname",
-    "price":4.99,
-    "image":"cheese_dip.png"
+     },
+  {
+    "name":"noodle",
+    "brand":"Homemade",
+    "image":"noodle.png"
   },
   {
-    "name":"Cola",
-    "brand":"Noname",
-    "price":1.49,
-    "image":"cola.png"
+    "name":"Pasta",
+    "brand":"Homemade",
+    "image":"pasta.png"
   },
   {
-    "name":"Fries",
-    "brand":"Noname",
-    "price":2.99,
-    "image":"fries.png"
+    "name":"Tsuivan",
+    "brand":"Homemade",
+    "image":"tsui.jpg"
   },
   {
-    "name":"Ice Cream",
-    "brand":"Noname",
-    "price":9.49,
-    "image":"ice_cream.png"
+    "name":"Chicken",
+    "brand":"Homemade",
+    "image":"pasta.png"
   },
   {
     "name":"Noodles",
-    "brand":"Noname",
-    "price":4.49,
-    "image":"noodles.png"
+    "brand":"Homemade",
+    "image":"noodle.png"
   },
   {
     "name":"Pizza",
-    "brand":"Noname",
-    "price":17.99,
-    "image":"pizza.png"
+    "brand":"Homemade",
+    "image":"pasta.png"
   },
   {
     "name":"Sandwich",
-    "brand":"Noname",
-    "price":2.99,
-    "image":"sandwich.png"
+    "brand":"Homemade",
+    "image":"noodle.png"
   },
-  {
-    "name":"Wrap",
-    "brand":"Noname",
-    "price":6.99,
-    "image":"wrap.png"
-  }
+
 ];
