@@ -2,7 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'secondscreen.dart';
-import 'TFChange.dart';
+import 'Myapp.dart';
 
 class  the_best_chef extends StatelessWidget {
   @override
@@ -61,7 +61,7 @@ class  the_best_chef extends StatelessWidget {
             ),
             RaisedButton(onPressed: (){
               Navigator.push(context,
-                  MaterialPageRoute(builder:(context)=>TFChange()),
+                  MaterialPageRoute(builder:(context)=>MyApp()),
               );
             },
               child: Text("my notepad"),
