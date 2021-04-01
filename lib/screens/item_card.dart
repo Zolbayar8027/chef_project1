@@ -48,7 +48,7 @@ class ItemCard extends StatelessWidget {
             ),
           ),
           Text(
-            "make time${product.price}",
+            "Хийх цаг: ${product.price}",
             style: TextStyle(fontWeight: FontWeight.bold),
           )
         ],

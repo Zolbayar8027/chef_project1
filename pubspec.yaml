@@ -52,6 +52,7 @@ flutter:
     - images/background.jpg
     - images/body.jpg
     - assets/
+    - assets/images/
 
 
 

@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
 
       leading:IconButton(icon: Icon(Icons.menu), onPressed: () {
       }),
-      title: Text("The best chef",style: TextStyle(
+      title: Text("ХООЛ ба ЖОР",style: TextStyle(
         fontSize: 30.0,
         fontWeight: FontWeight.bold,
         color: Colors.white,

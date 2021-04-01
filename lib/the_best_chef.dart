@@ -16,7 +16,7 @@ class  the_best_chef extends StatelessWidget {
 
         leading:IconButton(icon: Icon(Icons.menu), onPressed: () {
     }),
-        title: Text("The best chef",style: TextStyle(
+        title: Text("HOME COOK",style: TextStyle(
           fontSize: 30.0,
             fontWeight: FontWeight.bold,
               color: Colors.white,
@@ -39,7 +39,7 @@ class  the_best_chef extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              Text("The app is help you cooking",style: TextStyle(
+              Text("HOME COOK  is made my day",style: TextStyle(
                 fontSize: 20.0,
                   fontWeight: FontWeight.bold,
                     color: Colors.black54,
@@ -54,7 +54,7 @@ class  the_best_chef extends StatelessWidget {
               );
 
             },
-              child: Text("Recipe"),
+              child: Text("Хоолны жор"),
                 elevation: 20.0,
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
                     color: Colors.brown,
@@ -63,9 +63,11 @@ class  the_best_chef extends StatelessWidget {
                           hoverColor: Colors.white70,
             ),
             RaisedButton(onPressed: (){
-
+              Navigator.push(context,
+                  MaterialPageRoute(builder:(context)=> ListViewPage()),
+              );
             },
-              child: Text("my notepad"),
+              child: Text("Амтлагч"),
                 elevation: 20.0,
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
                     color: Colors.brown,
@@ -75,7 +77,7 @@ class  the_best_chef extends StatelessWidget {
             ),
             ButtonBar(
               children: <Widget>[
-                Text("developed by zolbayar XD"),
+                Text("developed by Z"),
 
 
                 ],
