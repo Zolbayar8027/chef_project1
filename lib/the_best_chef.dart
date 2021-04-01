@@ -1,8 +1,11 @@
 
+
+import 'package:chef_project1/screens/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'main.dart';
 import 'secondscreen.dart';
-import 'Myapp.dart';
+
 
 class  the_best_chef extends StatelessWidget {
   @override
@@ -47,9 +50,9 @@ class  the_best_chef extends StatelessWidget {
 
             RaisedButton(onPressed: (){
               Navigator.push(context,
-                MaterialPageRoute(builder:(context)=>SecondScreen()),
-
+                MaterialPageRoute(builder:(context)=> HomeScreen()),
               );
+
             },
               child: Text("Recipe"),
                 elevation: 20.0,
@@ -60,9 +63,7 @@ class  the_best_chef extends StatelessWidget {
                           hoverColor: Colors.white70,
             ),
             RaisedButton(onPressed: (){
-              Navigator.push(context,
-                  MaterialPageRoute(builder:(context)=>MyApp()),
-              );
+
             },
               child: Text("my notepad"),
                 elevation: 20.0,
