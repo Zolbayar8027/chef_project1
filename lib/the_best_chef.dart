@@ -1,5 +1,6 @@
 
 
+import 'package:chef_project1/navbar.dart';
 import 'package:chef_project1/screens/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -12,10 +13,10 @@ class  the_best_chef extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 
+
       appBar: AppBar(
 
-        leading:IconButton(icon: Icon(Icons.menu), onPressed: () {
-    }),
+
         title: Text("HOME COOK",style: TextStyle(
           fontSize: 30.0,
             fontWeight: FontWeight.bold,
@@ -29,13 +30,11 @@ class  the_best_chef extends StatelessWidget {
         ),
         centerTitle: true,
         actions: <Widget>[
-          IconButton(icon: Icon(Icons.search), onPressed: () {
 
-          }),
       ],
       ),
 //Column
-        backgroundColor: Colors.brown[100],
+        backgroundColor: Colors.green[300],
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
@@ -57,7 +56,7 @@ class  the_best_chef extends StatelessWidget {
               child: Text("Хоолны жор"),
                 elevation: 20.0,
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-                    color: Colors.brown,
+                    color: Colors.amberAccent[700],
                       textColor: Colors.white,
                         padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 30.0),
                           hoverColor: Colors.white70,
@@ -70,7 +69,7 @@ class  the_best_chef extends StatelessWidget {
               child: Text("Амтлагч"),
                 elevation: 20.0,
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-                    color: Colors.brown,
+                    color: Colors.amberAccent[700],
                       textColor: Colors.white,
                         padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 30.0),
                           hoverColor: Colors.white70,
