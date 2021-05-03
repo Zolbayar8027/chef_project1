@@ -76,7 +76,7 @@ class  the_best_chef extends StatelessWidget {
             ),
             ButtonBar(
               children: <Widget>[
-                Text("developed by Z"),
+                Text("contact email address: zolbayardoll1234@gmail.com"),
 
 
                 ],
