@@ -34,7 +34,7 @@ class  the_best_chef extends StatelessWidget {
       ],
       ),
 //Column
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.grey,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
@@ -56,7 +56,7 @@ class  the_best_chef extends StatelessWidget {
               child: Text("Хоолны жор"),
                 elevation: 20.0,
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-                    color: Colors.amberAccent[700],
+                    color: Colors.pink[100],
                       textColor: Colors.white,
                         padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 30.0),
                           hoverColor: Colors.white70,
@@ -69,7 +69,7 @@ class  the_best_chef extends StatelessWidget {
               child: Text("Амтлагч"),
                 elevation: 20.0,
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
-                    color: Colors.amberAccent[700],
+                    color: Colors.pink[100],
                       textColor: Colors.white,
                         padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 30.0),
                           hoverColor: Colors.white70,
