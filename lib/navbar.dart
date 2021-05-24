@@ -1,3 +1,4 @@
+import 'package:chef_project1/Book.dart';
 import 'package:chef_project1/screens/home_screen.dart';
 import 'package:chef_project1/secondscreen.dart';
 import 'package:chef_project1/the_best_chef.dart';
@@ -10,7 +11,13 @@ class navbar extends StatelessWidget {
       child: ListView(
         children: [
           ListTile(
-            title: Text('Нүүр хуудас'),
+            title: Text('Home page',
+              style: TextStyle(
+                color: Colors.pink,
+                fontFamily: 'DancingScript',
+                fontSize: 17,
+              ),
+            ),
             onTap: () {
               Navigator.push(context,
                 MaterialPageRoute(builder:(context)=> the_best_chef()),
@@ -32,7 +39,7 @@ class navbar extends StatelessWidget {
                 height: 20,
                 child: Center(
                   child: Text(
-                    '6 ',
+                    '11 ',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 12,
@@ -57,7 +64,32 @@ class navbar extends StatelessWidget {
                 height: 20,
                 child: Center(
                   child: Text(
-                    '12 ',
+                    '19 ',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 12,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Divider(),
+          ListTile(
+            title: Text('Хоолны жор'),
+            onTap: () {
+              Navigator.push(context,
+                MaterialPageRoute(builder:(context)=> Book()),
+              );
+            },
+            trailing: ClipOval(
+              child: Container(
+                color: Colors.grey[300],
+                width: 20,
+                height: 20,
+                child: Center(
+                  child: Text(
+                    '1 ',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 12,
@@ -67,6 +99,7 @@ class navbar extends StatelessWidget {
               ),
             ),
           )
+
         ],
       ),
     );

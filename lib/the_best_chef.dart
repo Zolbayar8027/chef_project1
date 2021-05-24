@@ -1,5 +1,6 @@
 
 
+import 'package:chef_project1/Book.dart';
 import 'package:chef_project1/navbar.dart';
 import 'package:chef_project1/screens/home_screen.dart';
 import 'package:flutter/cupertino.dart';
@@ -74,6 +75,19 @@ class  the_best_chef extends StatelessWidget {
                         padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 30.0),
                           hoverColor: Colors.white70,
             ),
+              RaisedButton(onPressed: (){
+                Navigator.push(context,
+                  MaterialPageRoute(builder:(context)=> Book()),
+                );
+              },
+                child: Text("Хоолны дэглэм"),
+                elevation: 20.0,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(200.0)),
+                color: Colors.pink[100],
+                textColor: Colors.white,
+                padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 30.0),
+                hoverColor: Colors.white70,
+              ),
             ButtonBar(
               children: <Widget>[
                 Text("contact email address: zolbayardoll1234@gmail.com"),
