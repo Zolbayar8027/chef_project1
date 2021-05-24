@@ -34,7 +34,7 @@ class  the_best_chef extends StatelessWidget {
       ],
       ),
 //Column
-        backgroundColor: Colors.green[300],
+        backgroundColor: Colors.white,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
