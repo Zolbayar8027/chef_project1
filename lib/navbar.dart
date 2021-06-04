@@ -76,7 +76,7 @@ class navbar extends StatelessWidget {
           ),
           Divider(),
           ListTile(
-            title: Text('Хоолны жор'),
+            title: Text('News'),
             onTap: () {
               Navigator.push(context,
                 MaterialPageRoute(builder:(context)=> Book()),
